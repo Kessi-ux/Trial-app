@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Dashboard</title>
+  <link rel="stylesheet" href="../static/dash.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <div class="username">
+          Hello Koach <!-- Replace "Koach" with actual username using JavaScript if needed -->
+        </div>
+        <div class="picture-holder">
+          <!-- Placeholder for user picture -->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <aside>
+    <ul>
+      <li><a href="#">Profile Page</a></li>
+      <li><a href="#" id="addTodoLink">Add Todos</a></li>
+    </ul>
+    <div id="addTodoForm" style="display:none;">
+      <form id="todoForm">
+        <label for="task">Task:</label><br>
+        <input type="text" id="task" name="task"><br>
+        <label for="time">Time:</label><br>
+        <input type="text" id="time" name="time"><br>
+        <label for="people">People:</label><br>
+        <input type="number" id="people" name="people"><br>
+        <label for="criteria">Criteria:</label><br>
+        <input type="text" id="criteria" name="criteria"><br><br>
+        <button type="button" class="add-todo-button" id="addTodoButton">+</button>
+      </form>
+    </div>
+  </aside>
+  <main>
+    <section class="todos">
+      <!-- Todo items will be dynamically generated here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    color: white;
+    padding: 10px 0;
+    background-color: #2c3e50;
+}
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .picture-holder {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .picture-holder img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .username {
+    margin-right: 20px;
+  }
+  
+  /* Example styling for profile picture */
+  .picture-holder {
+    background-color: #fff; /* White background */
+    border: 2px solid #333; /* Black border */
+  }
+  
+  
+  
+  aside {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    float: left;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+  }
+  
+  aside a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .add-todo-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main {
+    float: left;
+    padding: 20px;
+  }
+  
+/* Style for todo items */
+.todos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .todo-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .todo-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Optional: Add hover effect */
+  .todo-item:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+  
+  .todo-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for todo icons */
+.todo-icons i {
+    margin-right: 5px; /* Adjust spacing between icons */
+    font-size: 20px; /* Adjust icon size */
+    color: #555; /* Adjust icon color */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+  
+  /* Style for hover effect on icons */
+  .todo-icons i:hover {
+    color: #333; /* Change icon color on hover */
+  }
+  
+  

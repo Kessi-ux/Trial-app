@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="../static/profile.css">
+</head>
+<body>
+  <header>
+    <h1>Profile Settings</h1>
+  </header>
+  <main>
+    <section class="profile-info">
+      <h2>Edit Profile Information</h2>
+      <form id="profileForm">
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">New Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+        <button type="submit">Save Changes</button>
+      </form>
+    </section>
+    <section class="profile-picture">
+      <h2>Profile Picture</h2>
+      <input type="file" id="profilePicture" name="profilePicture"><br><br>
+      <button id="uploadPicture">Upload Picture</button>
+    </section>
+    <section class="account-actions">
+      <h2>Account Actions</h2>
+      <button id="deactivateAccount">Deactivate Account</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Your Website</p>
+  </footer>
+</body>
+</html>
