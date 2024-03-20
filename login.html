@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Form</title>
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="login-container">
@@ -12,7 +12,7 @@
       <h2>Login</h2>
       <div class="form-group">
         <label for="username_or_email">Email:</label>
-        <input type="text" id="username_or_email" name="username_or_email" required>
+        <input type="text" id="email" name="email" required>
       </div>
       <div class="form-group">
         <label for="password">Password:</label>
@@ -26,8 +26,8 @@
       </div>
       <button type="submit">Login</button>
       <div class="or">Or sign in with</div>
-      <button type="button" class="google-btn">Sign In with Google</button>
-      <p class="signup-text">Don't have an account? <a href="#" class="sign-up">Sign Up for Free</a></p>
+      <button type="button" class="google-btn"><img src="assets\free-icon-google.png" alt="" class="google-img">Continue with Google</button>
+      <p class="signup-text">Don't have an account? <a href="signup.html" class="sign-up">Sign Up for Free</a></p>
     </form>
   </div>
 </body>

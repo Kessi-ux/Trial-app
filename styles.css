@@ -13,9 +13,9 @@ body {
   width: 90%;
   max-width: 400px;
   padding: 35px;
-  border-radius: 5px;
+  border-radius: 10px; /* Increased border radius for a more modern look */
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased box shadow for a more prominent effect */
 }
 
 .login-form {
@@ -24,38 +24,50 @@ body {
 }
 
 .login-form h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px; /* Increased margin for more spacing */
   text-align: center;
+  color: #333; /* Changed text color for better contrast */
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px; /* Increased margin for more spacing */
 }
 
 .remember-forgot {
   display: flex;
   justify-content: space-between;
+  align-items: center; /* Center align items */
 }
 
 label {
   font-weight: bold;
+  color: #555; /* Changed label color for better contrast */
 }
 
 input[type="text"],
 input[type="password"] {
   width: 100%;
-  padding: 10px;
+  padding: 12px; /* Increased padding for better input appearance */
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
+.signup-form input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
 button {
-  padding: 10px;
+  padding: 12px; /* Increased padding for better button appearance */
   border: none;
   border-radius: 5px;
   background-color: #00ff7b;
   color: #fff;
   cursor: pointer;
+  transition: background-color 0.3s; /* Added transition for smoother hover effect */
 }
 
 button:hover {
@@ -64,19 +76,31 @@ button:hover {
 
 .or {
   text-align: center;
-  margin: 15px 0;
+  margin: 20px 0; /* Increased margin for more spacing */
+  color: #555; /* Changed text color for better contrast */
+}
+
+.google-img {
+  display: inline-block;
+  width: 20px; /* Adjusted image size */
+  margin-right: 10px; /* Added margin for better alignment */
 }
 
 .google-btn {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   margin: 10px 0;
   border: none;
   border-radius: 5px;
   background-color: #db4437;
   color: #fff;
   cursor: pointer;
+  text-align: center;
+  display: flex; /* Added flex display */
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
 }
+
 
 .google-btn:hover {
   background-color: #c13584;
@@ -86,7 +110,7 @@ button:hover {
 .sign-up {
   display: block;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px; /* Increased margin for more spacing */
   color: blue;
   text-decoration: none;
 }
@@ -98,6 +122,7 @@ button:hover {
 
 .signup-text {
   text-align: center;
+  color: #555; /* Changed text color for better contrast */
 }
 
 /* Responsive Styling */
