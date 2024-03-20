@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Form</title>
+  <title>Login</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,13 +22,27 @@
         <label for="remember">
           <input type="checkbox" id="remember" name="remember"> Remember me
         </label>
-        <a href="#" class="forgot-password">Forgot Password?</a>
+        <!-- Link to open forgot password modal -->
+        <a href="#" class="forgot-password" id="forgotPasswordLink">Forgot Password?</a>
       </div>
       <button type="submit">Login</button>
       <div class="or">Or sign in with</div>
-      <button type="button" class="google-btn"><img src="assets\free-icon-google.png" alt="" class="google-img">Continue with Google</button>
+      <button type="button" class="google-btn"><img src="assets/free-icon-google.png" alt="" class="google-img">Continue with Google</button>
       <p class="signup-text">Don't have an account? <a href="signup.html" class="sign-up">Sign Up for Free</a></p>
     </form>
   </div>
+
+  <!-- Forgot password modal -->
+  <div id="forgotPasswordModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Forgot Password?</h2>
+      <p>Please enter your email address to reset your password:</p>
+      <input type="email" id="forgotPasswordEmail" name="forgotPasswordEmail" required>
+      <button id="resetPasswordBtn">Reset Password</button>
+    </div>
+  </div>
+
+  <script src="modal.js"></script>
 </body>
 </html>
